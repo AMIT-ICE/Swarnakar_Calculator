@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.amiti.swarnakar_calculator.MainActivity">
+
+    <Button
+        android:id="@+id/priceCalcButtonId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calcButtonText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#6e6d6d"
+        android:background="@drawable/main_activity_button"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/vori_vs_anaButtonId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/vori_anaButtonText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#6e6d6d"
+        android:background="@drawable/main_activity_button"
+        android:layout_marginBottom="10dp"
+        />
+<Button
+        android:id="@+id/roti_vs_anaButtonId"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/roti_anaButtonText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#6e6d6d"
+        android:background="@drawable/main_activity_button"
+        android:layout_marginBottom="10dp"
+        />
+
+</LinearLayout>

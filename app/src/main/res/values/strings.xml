@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Swarnakar_calculator</string>
+    <string name="voriText">স্বর্ণের পরিমাণ(ভরি)তে প্রদান করুন </string>
+    <string name="anaText">স্বর্ণের পরিমাণ(আনা)তে প্রদান করুন </string>
+    <string name="calcButtonText">স্বর্ণের মূল্য নির্ণয়</string>
+    <string name="vori_anaButtonText">ভরি এবং আনা হিসাব</string>
+    <string name="roti_anaButtonText">রতি এবং আনা হিসাব</string>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amiti.swarnakar_calculator.Roti_vs_Ana"
+    android:weightSum="4"
+    android:orientation="vertical"
+    android:background="#f0f0f1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:gravity="center">
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:background="@drawable/rounded_button"
+            android:hint="স্বর্ণের পরিমাণ (রতি)"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/buttonId"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circularbutton"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/tap"
+            android:text="Tap Here"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="7sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/resultTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/result"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/editText2Id"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_button"
+            android:hint="স্বর্ণের পরিমাণ (আনা)"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/button2Id"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circularbutton"
+            android:layout_marginLeft="10dp"
+            android:drawableTop="@drawable/tap"
+            android:text="Tap Here"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="7sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/result2TextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:background="@drawable/result"/>
+    </LinearLayout>
+</LinearLayout>
+
